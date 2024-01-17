@@ -1222,7 +1222,7 @@ function checkMem() {
 						fi
 					}
 				elif [[ "$2" == "7" ]]; then
-					[[ "$TotalMem" -le "500" ]] && {
+					[[ "$TotalMem" -le "1500" ]] && {
 						echo -ne "\n[${red}Error${plain}] Minimum system memory requirement is 1.5 GB!\n"
 						exit 1
 					}
