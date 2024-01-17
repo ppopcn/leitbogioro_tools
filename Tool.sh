@@ -193,17 +193,17 @@ elif [ "$number" == "20" ]; then
     elif [ "$num" == "5" ]; then
         bash InstallNET.sh -ubuntu
     elif [ "$num" == "6" ]; then
-        bash InstallNET.sh -windows
+        bash InstallNET.sh -windows -lang "cn"
         elif [ "$num" == "7" ]; then
-        bash InstallNET.sh -windows 10
+        bash InstallNET.sh -windows 10 -lang "cn"
         elif [ "$num" == "8" ]; then
-        bash InstallNET.sh -windows 2012
+        bash InstallNET.sh -windows 2012 -lang "cn"
         elif [ "$num" == "9" ]; then
-        bash InstallNET.sh -windows 2016
+        bash InstallNET.sh -windows 2016 -lang "cn"
         elif [ "$num" == "10" ]; then
-        bash InstallNET.sh -windows 2019
+        bash InstallNET.sh -windows 2019 -lang "cn"
         elif [ "$num" == "11" ]; then
-        bash InstallNET.sh -windows 2022
+        bash InstallNET.sh -windows 2022 -lang "cn"
     else
         echo "无效的输入！"
     fi
