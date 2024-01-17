@@ -171,6 +171,11 @@ elif [ "$number" == "20" ]; then
     echo "4.DD CentOS 9"
     echo "5.DD Ubuntu 22.04"
     echo "6.DD Windows 11"
+    echo "7.DD Windows 10"
+    echo "8.DD Windows 2012"
+    echo "9.DD Windows 2016"
+    echo "10.DD Windows 2019"
+    echo "11.DD Windows 2022"
     echo -e ""
 
     echo -ne "\e[36m請選擇功能：\e[0m"
@@ -188,6 +193,16 @@ elif [ "$number" == "20" ]; then
         bash InstallNET.sh -ubuntu
     elif [ "$num" == "6" ]; then
         bash InstallNET.sh -windows
+        elif [ "$num" == "7" ]; then
+        bash InstallNET.sh -windows 10
+        elif [ "$num" == "8" ]; then
+        bash InstallNET.sh -windows 2012
+        elif [ "$num" == "9" ]; then
+        bash InstallNET.sh -windows 2016
+        elif [ "$num" == "10" ]; then
+        bash InstallNET.sh -windows 2019
+        elif [ "$num" == "11" ]; then
+        bash InstallNET.sh -windows 2022
     else
         echo "无效的输入！"
     fi
