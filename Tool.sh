@@ -168,7 +168,7 @@ elif [ "$number" == "20" ]; then
     echo "1.DD Debian 12"
     echo "2.DD Kali"
     echo "3.DD Alpine"
-    echo "4.DD CentOS 9"
+    echo "4.DD CentOS 7"
     echo "5.DD Ubuntu 22.04"
     echo "6.DD Windows 11"
     echo "7.DD Windows 10"
@@ -188,7 +188,7 @@ elif [ "$number" == "20" ]; then
     elif [ "$num" == "3" ]; then
         bash InstallNET.sh -alpine
     elif [ "$num" == "4" ]; then
-        bash InstallNET.sh -centos
+        bash InstallNET.sh -centos 7
     elif [ "$num" == "5" ]; then
         bash InstallNET.sh -ubuntu
     elif [ "$num" == "6" ]; then
