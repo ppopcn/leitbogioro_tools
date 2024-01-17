@@ -161,7 +161,8 @@ elif [ "$number" == "19" ]; then
 elif [ "$number" == "20" ]; then
 
     # 下載脚本
-    wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh' && chmod a+x InstallNET.sh
+    #wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh' && chmod a+x InstallNET.sh
+    wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/ppopcn/leitbogioro_tools/master/Linux_reinstall/InstallNET.sh' && chmod a+x InstallNET.sh
     
     echo -e "脚本自動下載 InstallNET.sh 到當前目錄。"
     echo "詳細參數可參考 Github項目地址：https://github.com/leitbogioro/Tools"
